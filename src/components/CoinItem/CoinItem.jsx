@@ -1,8 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function CoinItem({ coin }) {
-  const { 
-    image, name, current_price, symbol } = coin;
+  const { image, name, current_price, symbol } = coin;
 
   return (
     <div className="card shadow h-75 p-5 mt-5 mb-5 d-flex justify-content-center align-items-center">

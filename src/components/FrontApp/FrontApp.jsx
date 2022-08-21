@@ -1,10 +1,10 @@
-import React from 'react';
-import { CoinHeader } from '../CoinHeader/CoinHeader';
-import { CoinSearcher } from '../CoinSearcher/CoinSearcher';
-import { CoinSorter } from '../CoinSorter/CoinSorter';
-import { CoinList } from '../CoinList/CoinList';
-import { CoinItem } from '../CoinItem/CoinItem';
-import { CoinContext } from '../CoinContext/CoinContext';
+import React from "react";
+import { CoinHeader } from "../CoinHeader/CoinHeader";
+import { CoinSearcher } from "../CoinSearcher/CoinSearcher";
+import { CoinSorter } from "../CoinSorter/CoinSorter";
+import { CoinList } from "../CoinList/CoinList";
+import { CoinItem } from "../CoinItem/CoinItem";
+import { CoinContext } from "../CoinContext/CoinContext";
 
 function FrontApp() {
   const { searchedCoins, onCounterResults, onSortName, onSortPrice } =
