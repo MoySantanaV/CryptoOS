@@ -6,8 +6,8 @@ function CoinList({ coins }) {
     <div>
       <div className="row">
         {coins &&
-          coins.map((coin, index) => (
-            <div className="col" key={index}>
+          coins.map((coin) => (
+            <div className="col" key={coin.id}>
               <CoinItem key={coin.id} coin={coin} />
             </div>
           ))}

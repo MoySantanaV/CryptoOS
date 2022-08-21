@@ -1,5 +1,5 @@
-import React from "react";
-import Stack from "react-bootstrap/Stack";
+import React from 'react';
+import Stack from 'react-bootstrap/Stack';
 
 function CoinSorter({ onSortName, onSortPrice }) {
   return (

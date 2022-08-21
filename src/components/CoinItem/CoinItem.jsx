@@ -1,16 +1,19 @@
-import React from "react";
+import React from 'react';
 
 function CoinItem({ coin }) {
+  const { 
+    image, name, current_price, symbol } = coin;
+
   return (
     <div className="card shadow h-75 p-5 mt-5 mb-5 d-flex justify-content-center align-items-center">
       <div className="p-3">
-        <img src={coin.image} alt={coin.name} width="100px" />
+        <img src={image} alt={name} width="100px" />
       </div>
       <p>
-        <b>{coin.name}</b>
+        <b>{name}</b>
       </p>
-      <p>{coin.symbol.toUpperCase()}</p>
-      <p>$ {coin.current_price}</p>
+      <p>{symbol.toUpperCase()}</p>
+      <p>${current_price}</p>
     </div>
   );
 }
