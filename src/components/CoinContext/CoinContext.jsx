@@ -42,7 +42,7 @@ function CoinProvider(props) {
       const acumulador = results + 5;
       setResults(acumulador);
     } else {
-      toast.success("You have reached the limit of cryptos to view");
+      toast.warning("You have reached the limit of cryptos to view");
     }
   }
   const comparator = (a, b, key) => {
